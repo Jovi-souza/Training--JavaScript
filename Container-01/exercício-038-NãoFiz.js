@@ -5,7 +5,7 @@ As cores usadas pela impressora são registradas em uma string de controle. Por 
 
 Às vezes há problemas: falta de cores, mau funcionamento técnico e uma string de controle "ruim" é produzida, por exemplo aaaxbbbbyyhwawiwjjjwwm, com letras que não são de a to m.
 
-Você tem que escrever uma função printer_errorque dada uma string retornará a taxa de erro da impressora como uma string representando um racional cujo numerador é o número de erros e o denominador o comprimento da string de controle. Não reduza esta fração a uma expressão mais simples.
+Você tem que escrever uma função printer_error que dada uma string retornará a taxa de erro da impressora como uma string representando um racional cujo numerador é o número de erros e o denominador o comprimento da string de controle. Não reduza esta fração a uma expressão mais simples.
 
 A string tem um comprimento maior ou igual a um e contém apenas letras de a até z.
 
