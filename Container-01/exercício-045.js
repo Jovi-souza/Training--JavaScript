@@ -6,10 +6,8 @@
 // solution('abc', 'd') // returns false
 
 function solution(word, sec) {
-  const wordToArr = Array.from(word)
-  const last1 = wordToArr[wordToArr.length -1]
-  const last2 = wordToArr[wordToArr.length -2] += wordToArr[wordToArr.length -1]
-  console.log(last2 === sec || last1 === sec)
+  const end = word.endsWith(sec)
+  console.log(end)
 }
 
 solution('sapo', 'o')
