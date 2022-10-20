@@ -7,7 +7,6 @@ function sumMix( num ) {
         return ac + at
     })
     console.log(soma)
-    
 }
 
 sumMix([25, 30, 10, "30", "5"])

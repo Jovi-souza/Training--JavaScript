@@ -3,3 +3,18 @@
 // Por exemplo, quando um array é passado como [19, 5, 42, 2, 77], a saída deve ser 7.
 
 // [10, 343445353, 3453445, 3453545353453]deve retornar 3453455.
+
+const sum = (arr) => {
+  const soma = arr.reduce( (at, ac) => {
+    const teste = 0
+    if(at <= ac) {
+      return at += teste
+    }
+    
+    return at + ac
+  })
+
+  console.log(soma)
+}
+
+sum([19, 5, 42, 2, 77])
