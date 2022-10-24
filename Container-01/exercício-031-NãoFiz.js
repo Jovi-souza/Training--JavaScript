@@ -4,22 +4,14 @@
 // segundoMaior([8, 4, 5, 6]) // retornará 6
 
 const array = [12, 16, 1, 5]
-let segundoMaior = array.reduce( (acomulador, atual) => {
-    
-    if( acomulador >= atual) {
-        return acomulador
-    }
 
-    return atual
-
+const segundoMaior = array.reduce( (acomulador, atual) => {
+  if( acomulador >= atual) {
+    return acomulador
+  }
+  return atual
 })
 
-// let segundoMaior = array.reduce( (acomulador, atual) => {
-//     if( acomulador >= atual) {
-//         return acomulador
-//     } 
-//     return atual
-
-// })
+const teste = array.filter( num => num <= segundoMaior)
 
 console.log(segundoMaior)
